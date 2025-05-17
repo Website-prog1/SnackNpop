@@ -58,7 +58,7 @@ const About = () => {
               <div className="lg:col-span-7 bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-snackpop-yellow to-snackpop-orange transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-                  <div>
+            <div>
                     <div className="inline-block bg-gradient-to-r from-snackpop-orange to-snackpop-yellow p-2 rounded-xl mb-4 sm:mb-6">
                       <span className="text-white font-medium text-sm sm:text-base">Our Vision</span>
                     </div>
@@ -149,8 +149,8 @@ const About = () => {
               <p className="text-gray-600 text-sm sm:text-base">
                 These principles guide everything we do at Snack N'Pop
               </p>
-            </div>
-
+          </div>
+          
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {/* Community First */}
               <div className="group relative">
