@@ -41,21 +41,21 @@ const CTASection = () => {
               <div className="relative w-full h-[300px]">
                 <div className="absolute top-0 left-0 w-48 h-48 rotate-12 transform translate-y-4">
                   <img 
-                    src="/images/chick.jpg" 
+                    src={`${import.meta.env.BASE_URL}images/chick.jpg`}
                     alt="Chick" 
                     className="w-full h-full object-cover rounded-lg shadow-lg"
                   />
                 </div>
                 <div className="absolute bottom-0 right-0 w-48 h-48 -rotate-12 transform translate-y-4">
                   <img 
-                    src="/images/chicken.jpg" 
+                    src={`${import.meta.env.BASE_URL}images/chicken.jpg`}
                     alt="Chicken" 
                     className="w-full h-full object-cover rounded-lg shadow-lg"
                   />
                 </div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-56">
                   <img 
-                    src="/images/crispy_chicken.jpg" 
+                    src={`${import.meta.env.BASE_URL}images/crispy_chicken.jpg`}
                     alt="Crispy Chicken" 
                     className="w-full h-full object-cover rounded-lg shadow-lg"
                   />

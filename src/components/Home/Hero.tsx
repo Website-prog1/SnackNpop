@@ -8,10 +8,11 @@ const Hero = () => {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-[1]">
-        <img 
-          src="/images/chickenpop.jpg" 
-          alt="Chicken Pop Background" 
-          className="w-full h-full object-cover"
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${import.meta.env.BASE_URL}images/chickenpop.jpg)`,
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent"></div>
       </div>

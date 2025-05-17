@@ -74,9 +74,9 @@ const About = () => {
                   <div className="relative">
                     <div className="aspect-square rounded-2xl overflow-hidden">
                       <img 
-                        src="/images/chicken_bucket.jpg" 
+                        src={`${import.meta.env.BASE_URL}images/chicken_bucket.jpg`}
                         alt="Chicken Bucket" 
-                        className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                        className="w-full h-full object-cover rounded-lg"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                     </div>

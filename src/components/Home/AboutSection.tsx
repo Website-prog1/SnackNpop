@@ -17,9 +17,9 @@ const AboutSection = () => {
             <div className="relative z-10">
               <div className="w-full aspect-[4/3] max-w-[500px] mx-auto rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="/images/popcorn_chicken.jpg" 
-                  alt="About Snack N'Pop" 
-                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
+                  src={`${import.meta.env.BASE_URL}images/popcorn_chicken.jpg`}
+                  alt="Popcorn Chicken"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               {/* Decorative elements */}

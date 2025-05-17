@@ -11,7 +11,7 @@ const products = [
     id: 1,
     name: "V'Pops Classic",
     description: "Our signature chicken and vegetable poppers with a mild seasoning blend that everyone loves.",
-    image: "/images/SHAKAPOPS/V_Pops Classic_.png",
+    image: `${import.meta.env.BASE_URL}images/SHAKAPOPS/V_Pops Classic_.png`,
     category: "shakapops",
     popular: true,
   },
@@ -19,7 +19,7 @@ const products = [
     id: 2,
     name: "Spicy ShakaPops",
     description: "For those who like it hot! Our poppers with a spicy kick that's sure to satisfy your cravings.",
-    image: "/images/SHAKAPOPS/Spicy ShakaPops_.png",
+    image: `${import.meta.env.BASE_URL}images/SHAKAPOPS/Spicy ShakaPops_.png`,
     category: "shakapops",
     popular: true,
   },
@@ -27,7 +27,7 @@ const products = [
     id: 3,
     name: "Cheesy ShakaPops",
     description: "A delicious blend of cheese and herbs makes these poppers especially flavorful and satisfying.",
-    image: "/images/SHAKAPOPS/Cheesy ShakaPops_.png",
+    image: `${import.meta.env.BASE_URL}images/SHAKAPOPS/Cheesy ShakaPops_.png`,
     category: "shakapops",
     popular: false,
   },
@@ -35,7 +35,7 @@ const products = [
     id: 4,
     name: "BBQ ShakaPops",
     description: "Sweet and smoky BBQ flavor that adds a delicious twist to our classic poppers.",
-    image: "/images/SHAKAPOPS/BBQ ShakaPops_.png",
+    image: `${import.meta.env.BASE_URL}images/SHAKAPOPS/BBQ ShakaPops_.png`,
     category: "shakapops",
     popular: false,
   },
@@ -43,7 +43,7 @@ const products = [
     id: 5,
     name: "Sour Cream ShakaPops",
     description: "Creamy and tangy sour cream flavor that perfectly complements our chicken poppers.",
-    image: "/images/SHAKAPOPS/Sour Cream ShakaPops_.png",
+    image: `${import.meta.env.BASE_URL}images/SHAKAPOPS/Sour Cream ShakaPops_.png`,
     category: "shakapops",
     popular: false,
   },
@@ -53,7 +53,7 @@ const products = [
     id: 6,
     name: "V'Pops Meal 1 (Plain Rice)",
     description: "Classic V'Pops served with plain rice and your choice of sauce.",
-    image: "/images/V_Pops Combo Meal/VM1(Plain_Rice).jpg",
+    image: `${import.meta.env.BASE_URL}images/V_Pops Combo Meal/VM1(Plain_Rice).jpg`,
     category: "meals",
     popular: true,
   },
@@ -61,7 +61,7 @@ const products = [
     id: 7,
     name: "V'Pops Meal 1 (Java Rice)",
     description: "Classic V'Pops served with flavorful java rice and your choice of sauce.",
-    image: "/images/V_Pops Combo Meal/VM1(Java_Rice).jpg",
+    image: `${import.meta.env.BASE_URL}images/V_Pops Combo Meal/VM1(Java_Rice).jpg`,
     category: "meals",
     popular: true,
   },
@@ -69,7 +69,7 @@ const products = [
     id: 8,
     name: "V'Pops Meal 2 (Plain Rice)",
     description: "Spicy V'Pops paired with plain rice and your choice of sauce.",
-    image: "/images/V_Pops Combo Meal/VM2(Plain_Rice).jpg",
+    image: `${import.meta.env.BASE_URL}images/V_Pops Combo Meal/VM2(Plain_Rice).jpg`,
     category: "meals",
     popular: false,
   },
@@ -77,7 +77,7 @@ const products = [
     id: 9,
     name: "V'Pops Meal 2 (Java Rice)",
     description: "Spicy V'Pops paired with java rice and your choice of sauce.",
-    image: "/images/V_Pops Combo Meal/VM2(Java_Rice).jpg",
+    image: `${import.meta.env.BASE_URL}images/V_Pops Combo Meal/VM2(Java_Rice).jpg`,
     category: "meals",
     popular: false,
   },
@@ -85,7 +85,7 @@ const products = [
     id: 10,
     name: "V'Pops Meal 3 (Plain Rice)",
     description: "Cheesy V'Pops served with plain rice and your choice of sauce.",
-    image: "/images/V_Pops Combo Meal/VM3(Plain_Rice).jpg",
+    image: `${import.meta.env.BASE_URL}images/V_Pops Combo Meal/VM3(Plain_Rice).jpg`,
     category: "meals",
     popular: false,
   },
@@ -93,7 +93,7 @@ const products = [
     id: 11,
     name: "V'Pops Meal 3 (Java Rice)",
     description: "Cheesy V'Pops served with java rice and your choice of sauce.",
-    image: "/images/V_Pops Combo Meal/VM3(Java_Rice).jpg",
+    image: `${import.meta.env.BASE_URL}images/V_Pops Combo Meal/VM3(Java_Rice).jpg`,
     category: "meals",
     popular: false,
   },
@@ -103,7 +103,7 @@ const products = [
     id: 12,
     name: "Iced Tea",
     description: "Refreshing iced tea to complement your meal.",
-    image: "/images/DRINKS/Iced Tea.jpg",
+    image: `${import.meta.env.BASE_URL}images/DRINKS/Iced Tea.jpg`,
     category: "drinks",
     popular: true,
   },
@@ -111,7 +111,7 @@ const products = [
     id: 13,
     name: "Blue Lemonade",
     description: "A refreshing and vibrant blue lemonade that's both sweet and tangy.",
-    image: "/images/DRINKS/Blue Lemonade_.jpg",
+    image: `${import.meta.env.BASE_URL}images/DRINKS/Blue Lemonade_.jpg`,
     category: "drinks",
     popular: false,
   },
@@ -119,7 +119,7 @@ const products = [
     id: 14,
     name: "Pineapple Juice",
     description: "Sweet and tropical pineapple juice made from fresh pineapples.",
-    image: "/images/DRINKS/Pineapple Juice.jpg",
+    image: `${import.meta.env.BASE_URL}images/DRINKS/Pineapple Juice.jpg`,
     category: "drinks",
     popular: false,
   },
@@ -129,7 +129,7 @@ const products = [
     id: 15,
     name: "Garlic Mayo",
     description: "Creamy garlic mayonnaise sauce that adds a rich and flavorful touch.",
-    image: "/images/SAUCE/Garlic Mayo.jpg",
+    image: `${import.meta.env.BASE_URL}images/SAUCE/Garlic Mayo.jpg`,
     category: "sauces",
     popular: true,
   },
@@ -137,7 +137,7 @@ const products = [
     id: 16,
     name: "Sweet & Chili",
     description: "Perfect balance of sweet and spicy flavors.",
-    image: "/images/SAUCE/Sweet & Chili.jpg",
+    image: `${import.meta.env.BASE_URL}images/SAUCE/Sweet & Chili.jpg`,
     category: "sauces",
     popular: true,
   },
@@ -145,7 +145,7 @@ const products = [
     id: 17,
     name: "Gravy",
     description: "Rich and savory gravy sauce that enhances the flavor of your meal.",
-    image: "/images/SAUCE/Gravy_.jpg",
+    image: `${import.meta.env.BASE_URL}images/SAUCE/Gravy_.jpg`,
     category: "sauces",
     popular: false,
   },
@@ -153,7 +153,7 @@ const products = [
     id: 18,
     name: "Buffalo",
     description: "Spicy buffalo sauce for those who love a kick of heat.",
-    image: "/images/SAUCE/Buffalo_.jpg",
+    image: `${import.meta.env.BASE_URL}images/SAUCE/Buffalo_.jpg`,
     category: "sauces",
     popular: false,
   },
@@ -161,7 +161,7 @@ const products = [
     id: 19,
     name: "Teriyaki",
     description: "Sweet and savory Japanese-style teriyaki sauce.",
-    image: "/images/SAUCE/Teriyaki_.jpg",
+    image: `${import.meta.env.BASE_URL}images/SAUCE/Teriyaki_.jpg`,
     category: "sauces",
     popular: false,
   },
@@ -169,7 +169,7 @@ const products = [
     id: 20,
     name: "BBQ",
     description: "Classic BBQ sauce with a perfect blend of sweet and smoky flavors.",
-    image: "/images/SAUCE/BBQ.jpg",
+    image: `${import.meta.env.BASE_URL}images/SAUCE/BBQ.jpg`,
     category: "sauces",
     popular: false,
   },
@@ -183,7 +183,12 @@ const Products = () => {
         {/* Hero Section */}
         <div className="relative bg-gradient-to-br from-orange-500 to-orange-400 py-24 md:py-32 mb-16">
           <div className="absolute inset-0 bg-black/20"></div>
-          <div className="absolute inset-0 bg-[url('/images/popcorn_chicken.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+          <div 
+            className="absolute inset-0 bg-cover bg-center mix-blend-overlay"
+            style={{
+              backgroundImage: `url(${import.meta.env.BASE_URL}images/popcorn_chicken.jpg)`,
+            }}
+          ></div>
           <div className="container relative z-10">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="font-display text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">
@@ -280,7 +285,7 @@ const Products = () => {
               </p>
               <div className="relative rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="/images/popcorn_chicken.jpg" 
+                  src={`${import.meta.env.BASE_URL}images/popcorn_chicken.jpg`}
                   alt="Eco-friendly packaging" 
                   className="w-full h-[400px] object-cover"
                 />
